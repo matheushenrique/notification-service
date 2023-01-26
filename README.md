@@ -1,5 +1,17 @@
+# Backend application to send notifications
+
+Command to start application
+bash ```
+yarn start:dev
+```
+
+Command to start prisma
+bash ```
+npx prisma studio
+```
+
+## Useful commands
+bash ```
 npx tsc --noEmit
-
 npx prisma migrate dev
-
-factory pattern, uma funcao que retorna um objeto, funcao usada pra abstrair criacao de objetos que é feita muitas vezes durante o codigo 
+```
