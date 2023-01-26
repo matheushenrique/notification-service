@@ -1,17 +1,17 @@
 # Backend application to send notifications
 
 Command to start application
-bash ```
+```bash
 yarn start:dev
 ```
 
 Command to start prisma
-bash ```
+```bash
 npx prisma studio
 ```
 
 ## Useful commands
-bash ```
+```bash 
 npx tsc --noEmit
 npx prisma migrate dev
 ```
